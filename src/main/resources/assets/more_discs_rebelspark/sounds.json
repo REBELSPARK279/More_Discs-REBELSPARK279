@@ -1,0 +1,35 @@
+{
+  "aria_math": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:aria_math",
+        "stream": true
+      }
+    ]
+  },
+  "castlemania": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:castlemania",
+        "stream": true
+      }
+    ]
+  },
+  "castlemania2": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:castlemania2",
+        "stream": true
+      }
+    ]
+  },
+  "hardcoreminecraft": {
+  "sounds": [
+    {
+      "name": "more_discs_rebelspark:hardcoreminecraft",
+      "stream": true
+    }
+  ]
+}
+
+}

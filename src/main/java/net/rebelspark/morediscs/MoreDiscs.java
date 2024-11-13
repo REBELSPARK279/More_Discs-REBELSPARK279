@@ -1,6 +1,7 @@
 package net.rebelspark.morediscs;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -13,6 +14,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rebelspark.morediscs.item.ModCreativeModeTabs;
+import net.rebelspark.morediscs.item.ModItems;
+import net.rebelspark.morediscs.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -29,6 +33,11 @@ public class MoreDiscs {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
 
         // Register the item to a creative tab
