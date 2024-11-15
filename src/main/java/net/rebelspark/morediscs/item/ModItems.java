@@ -14,15 +14,26 @@ public class ModItems {
 //A
     public static final RegistryObject<Item> ARIA_MATH_DISC = ITEMS.register("aria_math_music_disc",
         () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ARIA_MATH_KEY).stacksTo(1)));
+//B
+    public static final RegistryObject<Item> BACK_ON_DASH_DISC = ITEMS.register("back_on_dash_music_disc",
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BACK_ON_DASH_KEY).stacksTo(1)));
 //C
     public static final RegistryObject<Item> CASTLEMANIADISC = ITEMS.register("castlemania_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASTLEMANIA_KEY).stacksTo(1)));
+
     public static final RegistryObject<Item> CASTLEMANIA2DISC = ITEMS.register("castlemania2_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASTLEMANIA2_KEY).stacksTo(1)));
 
 //H
     public static final RegistryObject<Item> HARDCOREMINECRAFTDISC = ITEMS.register("hardcoreminecraft_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.HARDCOREMINECRAFT_KEY).stacksTo(1)));
+
+    public static final RegistryObject<Item> HEADBUGDISC = ITEMS.register("headbug_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.HEADBUG_KEY).stacksTo(1)));
+//I
+    public static final RegistryObject<Item> INVINCIBLEDISC = ITEMS.register("invincible_music_disc",
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.INVINCIBLE_KEY).stacksTo(1)));
+
 
 
     public static void register(IEventBus eventBus) {

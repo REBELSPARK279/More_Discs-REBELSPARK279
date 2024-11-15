@@ -20,10 +20,15 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> ARIA_MATH = registerSoundEvent("aria_math");
     public static final ResourceKey<JukeboxSong> ARIA_MATH_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "aria_math"));
+    //B
+    public static final RegistryObject<SoundEvent> BACK_ON_DASH = registerSoundEvent("back_on_dash");
+    public static final ResourceKey<JukeboxSong> BACK_ON_DASH_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "back_on_dash"));
     //C
     public static final RegistryObject<SoundEvent> CASTLEMANIA = registerSoundEvent("castlemania");
     public static final ResourceKey<JukeboxSong> CASTLEMANIA_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "castlemania"));
+
     public static final RegistryObject<SoundEvent> CASTLEMANIA2 = registerSoundEvent("castlemania2");
     public static final ResourceKey<JukeboxSong> CASTLEMANIA2_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "castlemania2"));
@@ -33,6 +38,16 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> HARDCOREMINECRAFT = registerSoundEvent("hardcoreminecraft");
     public static final ResourceKey<JukeboxSong> HARDCOREMINECRAFT_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "hardcoreminecraft"));
+
+    public static final RegistryObject<SoundEvent> HEADBUG = registerSoundEvent("headbug");
+    public static final ResourceKey<JukeboxSong> HEADBUG_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "headbug"));
+
+    //I
+
+    public static final RegistryObject<SoundEvent> INVINCIBLE = registerSoundEvent("invincible");
+    public static final ResourceKey<JukeboxSong> INVINCIBLE_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "invincible"));
 
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {

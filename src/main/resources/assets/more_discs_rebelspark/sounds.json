@@ -7,6 +7,16 @@
       }
     ]
   },
+
+  "back_on_dash": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:back_on_dash",
+        "stream": true
+      }
+    ]
+  },
+
   "castlemania": {
     "sounds": [
       {
@@ -15,6 +25,7 @@
       }
     ]
   },
+
   "castlemania2": {
     "sounds": [
       {
@@ -23,13 +34,32 @@
       }
     ]
   },
+
   "hardcoreminecraft": {
-  "sounds": [
-    {
-      "name": "more_discs_rebelspark:hardcoreminecraft",
-      "stream": true
-    }
-  ]
-}
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:hardcoreminecraft",
+        "stream": true
+      }
+    ]
+  },
+
+  "headbug": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:headbug",
+        "stream": true
+      }
+    ]
+  },
+
+  "invincible": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:invincible",
+        "stream": true
+      }
+    ]
+  }
 
 }

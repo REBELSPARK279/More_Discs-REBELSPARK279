@@ -2,6 +2,9 @@
   "item.more_discs_rebelspark.aria_math_music_disc": "Music Disc",
   "item.more_discs_rebelspark.aria_math_music_disc.desc": "C418 - Aria Math",
 
+  "item.more_discs_rebelspark.back_on_dash_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.back_on_dash_music_disc.desc": "DJVI - Back on Dash",
+
   "item.more_discs_rebelspark.castlemania_music_disc": "Music Disc",
   "item.more_discs_rebelspark.castlemania_music_disc.desc": "REBELSPARK279 - CastleMania",
 
@@ -11,7 +14,18 @@
   "item.more_discs_rebelspark.hardcoreminecraft_music_disc": "Music Disc",
   "item.more_discs_rebelspark.hardcoreminecraft_music_disc.desc": "REBELSPARK279 - Hardcore Minecraft",
 
+  "item.more_discs_rebelspark.headbug_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.headbug_music_disc.desc": "REBELSPARK279 - Headbug",
 
+  "item.more_discs_rebelspark.invincible_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.invincible_music_disc.desc": "DEAF KEV - Invincible",
+
+
+
+
+
+  "painting.more_discs_rebelspark.discs.title": "Discs",
+  "painting.more_discs_rebelspark.discs.author": "REBELSPARK279",
 
   "creativetab.more_discs_rebelspark.mod_discs": "Mod Discs"
 }
