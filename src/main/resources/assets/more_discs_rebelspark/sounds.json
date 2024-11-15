@@ -35,6 +35,15 @@
     ]
   },
 
+  "executioner": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:executioner",
+        "stream": true
+      }
+    ]
+  },
+
   "hardcoreminecraft": {
     "sounds": [
       {
@@ -57,6 +66,24 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:invincible",
+        "stream": true
+      }
+    ]
+  },
+
+  "minecraft": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:minecraft",
+        "stream": true
+      }
+    ]
+  },
+
+  "subwoofer_lullaby": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:subwoofer_lullaby",
         "stream": true
       }
     ]

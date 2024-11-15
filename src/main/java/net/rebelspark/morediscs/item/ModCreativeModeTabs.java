@@ -23,9 +23,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BACK_ON_DASH_DISC.get());
                         output.accept(ModItems.CASTLEMANIADISC.get());
                         output.accept(ModItems.CASTLEMANIA2DISC.get());
+                        output.accept(ModItems.EXECUTIONER_DISC.get());
                         output.accept(ModItems.HARDCOREMINECRAFTDISC.get());
                         output.accept(ModItems.HEADBUGDISC.get());
                         output.accept(ModItems.INVINCIBLEDISC.get());
+                        output.accept(ModItems.MINECRAFTDISC.get());
+                        output.accept(ModItems.SUBWOOFER_LULLABY_DISC.get());
 
                     }).build());
 

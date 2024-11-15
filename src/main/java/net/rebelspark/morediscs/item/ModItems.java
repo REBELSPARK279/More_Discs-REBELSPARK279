@@ -23,6 +23,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CASTLEMANIA2DISC = ITEMS.register("castlemania2_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASTLEMANIA2_KEY).stacksTo(1)));
+//E
+    public static final RegistryObject<Item> EXECUTIONER_DISC = ITEMS.register("executioner_music_disc",
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.EXECUTIONER_KEY).stacksTo(1)));
 
 //H
     public static final RegistryObject<Item> HARDCOREMINECRAFTDISC = ITEMS.register("hardcoreminecraft_music_disc",
@@ -33,6 +36,12 @@ public class ModItems {
 //I
     public static final RegistryObject<Item> INVINCIBLEDISC = ITEMS.register("invincible_music_disc",
         () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.INVINCIBLE_KEY).stacksTo(1)));
+//M
+    public static final RegistryObject<Item> MINECRAFTDISC = ITEMS.register("minecraft_music_disc",
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MINECRAFT_KEY).stacksTo(1)));
+//S
+public static final RegistryObject<Item> SUBWOOFER_LULLABY_DISC = ITEMS.register("subwoofer_lullaby_music_disc",
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SUBWOOFER_LULLABY_KEY).stacksTo(1)));
 
 
 

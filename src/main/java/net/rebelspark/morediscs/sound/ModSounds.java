@@ -33,6 +33,12 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> CASTLEMANIA2_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "castlemania2"));
 
+    //E
+
+    public static final RegistryObject<SoundEvent> EXECUTIONER = registerSoundEvent("executioner");
+    public static final ResourceKey<JukeboxSong> EXECUTIONER_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "executioner"));
+
     //H
 
     public static final RegistryObject<SoundEvent> HARDCOREMINECRAFT = registerSoundEvent("hardcoreminecraft");
@@ -48,6 +54,18 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> INVINCIBLE = registerSoundEvent("invincible");
     public static final ResourceKey<JukeboxSong> INVINCIBLE_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "invincible"));
+
+    //M
+
+    public static final RegistryObject<SoundEvent> MINECRAFT = registerSoundEvent("minecraft");
+    public static final ResourceKey<JukeboxSong> MINECRAFT_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "minecraft"));
+
+    //S
+
+    public static final RegistryObject<SoundEvent> SUBWOOFER_LULLABY = registerSoundEvent("subwoofer_lullaby");
+    public static final ResourceKey<JukeboxSong> SUBWOOFER_LULLABY_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "subwoofer_lullaby"));
 
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
