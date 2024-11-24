@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "@": {
+      "item": "minecraft:stripped_acacia_wood"
+    }
+  },
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:mice_on_venus_music_disc"
+  }
+}

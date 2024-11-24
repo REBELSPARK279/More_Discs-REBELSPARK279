@@ -19,16 +19,29 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.more_discs_rebelspark.mod_discs"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                        output.accept(ModItems.ALPHA_DISC.get());
                         output.accept(ModItems.ARIA_MATH_DISC.get());
                         output.accept(ModItems.BACK_ON_DASH_DISC.get());
+                        output.accept(ModItems.BEGINNING2_DISC.get());
+                        output.accept(ModItems.BIOME_FEST_DISC.get());
+                        output.accept(ModItems.BLIND_SPOTS_DISC.get());
                         output.accept(ModItems.CASTLEMANIADISC.get());
                         output.accept(ModItems.CASTLEMANIA2DISC.get());
                         output.accept(ModItems.EXECUTIONER_DISC.get());
+                        output.accept(ModItems.FLOATING_TREES_DISC.get());
+                        output.accept(ModItems.HAGGSTROMDISC.get());
                         output.accept(ModItems.HARDCOREMINECRAFTDISC.get());
                         output.accept(ModItems.HEADBUGDISC.get());
                         output.accept(ModItems.INVINCIBLEDISC.get());
+                        output.accept(ModItems.KIDISC.get());
+                        output.accept(ModItems.LIVING_MICE_DISC.get());
+                        output.accept(ModItems.MICE_ON_VENUS_DISC.get());
                         output.accept(ModItems.MINECRAFTDISC.get());
+                        output.accept(ModItems.MOOG_CITY_DISC.get());
+                        output.accept(ModItems.MOOG_CITY2_DISC.get());
+                        output.accept(ModItems.MUTATIONDISC.get());
                         output.accept(ModItems.SUBWOOFER_LULLABY_DISC.get());
+                        output.accept(ModItems.WET_HANDS_DISC.get());
 
                     }).build());
 

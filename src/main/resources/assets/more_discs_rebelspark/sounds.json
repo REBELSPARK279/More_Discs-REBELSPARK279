@@ -1,4 +1,13 @@
 {
+  "alpha": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:alpha",
+        "stream": true
+      }
+    ]
+  },
+
   "aria_math": {
     "sounds": [
       {
@@ -12,6 +21,33 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:back_on_dash",
+        "stream": true
+      }
+    ]
+  },
+
+  "beginning2": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:beginning2",
+        "stream": true
+      }
+    ]
+  },
+
+  "biome_fest": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:biome_fest",
+        "stream": true
+      }
+    ]
+  },
+
+  "blind_spots": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:blind_spots",
         "stream": true
       }
     ]
@@ -44,6 +80,24 @@
     ]
   },
 
+  "floating_trees": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:floating_trees",
+        "stream": true
+      }
+    ]
+  },
+
+  "haggstrom": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:haggstrom",
+        "stream": true
+      }
+    ]
+  },
+
   "hardcoreminecraft": {
     "sounds": [
       {
@@ -71,6 +125,33 @@
     ]
   },
 
+  "ki": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:ki",
+        "stream": true
+      }
+    ]
+  },
+
+  "living_mice": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:living_mice",
+        "stream": true
+      }
+    ]
+  },
+
+  "mice_on_venus": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:mice_on_venus",
+        "stream": true
+      }
+    ]
+  },
+
   "minecraft": {
     "sounds": [
       {
@@ -80,10 +161,46 @@
     ]
   },
 
+  "moog_city": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:moog_city",
+        "stream": true
+      }
+    ]
+  },
+
+  "moog_city2": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:moog_city2",
+        "stream": true
+      }
+    ]
+  },
+
+  "mutation": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:mutation",
+        "stream": true
+      }
+    ]
+  },
+
   "subwoofer_lullaby": {
     "sounds": [
       {
         "name": "more_discs_rebelspark:subwoofer_lullaby",
+        "stream": true
+      }
+    ]
+  },
+
+  "wet_hands": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:wet_hands",
         "stream": true
       }
     ]
