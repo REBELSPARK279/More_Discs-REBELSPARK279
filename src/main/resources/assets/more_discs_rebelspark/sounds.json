@@ -71,6 +71,33 @@
     ]
   },
 
+  "danny": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:danny",
+        "stream": true
+      }
+    ]
+  },
+
+  "dog": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:dog",
+        "stream": true
+      }
+    ]
+  },
+
+  "dreiton": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:dreiton",
+        "stream": true
+      }
+    ]
+  },
+
   "executioner": {
     "sounds": [
       {
@@ -102,6 +129,15 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:hardcoreminecraft",
+        "stream": true
+      }
+    ]
+  },
+
+  "haunt_muskie": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:haunt_muskie",
         "stream": true
       }
     ]
@@ -192,6 +228,15 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:subwoofer_lullaby",
+        "stream": true
+      }
+    ]
+  },
+
+  "sweden": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:sweden",
         "stream": true
       }
     ]

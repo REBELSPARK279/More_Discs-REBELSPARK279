@@ -17,7 +17,7 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MoreDiscs.MOD_ID);
 
     //A
-    public static final RegistryObject<SoundEvent> ALPHA_MATH = registerSoundEvent("alpha");
+    public static final RegistryObject<SoundEvent> ALPHA = registerSoundEvent("alpha");
     public static final ResourceKey<JukeboxSong> ALPHA_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "alpha"));
 
@@ -50,6 +50,20 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> CASTLEMANIA2_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "castlemania2"));
 
+    //D
+
+    public static final RegistryObject<SoundEvent> DANNY = registerSoundEvent("danny");
+    public static final ResourceKey<JukeboxSong> DANNY_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "danny"));
+
+    public static final RegistryObject<SoundEvent> DOG = registerSoundEvent("dog");
+    public static final ResourceKey<JukeboxSong> DOG_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "dog"));
+
+    public static final RegistryObject<SoundEvent> DREITON = registerSoundEvent("dreiton");
+    public static final ResourceKey<JukeboxSong> DREITON_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "dreiton"));
+
     //E
 
     public static final RegistryObject<SoundEvent> EXECUTIONER = registerSoundEvent("executioner");
@@ -72,6 +86,10 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> HARDCOREMINECRAFT = registerSoundEvent("hardcoreminecraft");
     public static final ResourceKey<JukeboxSong> HARDCOREMINECRAFT_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "hardcoreminecraft"));
+
+    public static final RegistryObject<SoundEvent> HAUNT_MUSKIE = registerSoundEvent("haunt_muskie");
+    public static final ResourceKey<JukeboxSong> HAUNT_MUSKIE_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "haunt_muskie"));
 
     public static final RegistryObject<SoundEvent> HEADBUG = registerSoundEvent("headbug");
     public static final ResourceKey<JukeboxSong> HEADBUG_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
@@ -122,6 +140,10 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> SUBWOOFER_LULLABY = registerSoundEvent("subwoofer_lullaby");
     public static final ResourceKey<JukeboxSong> SUBWOOFER_LULLABY_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "subwoofer_lullaby"));
+
+    public static final RegistryObject<SoundEvent> SWEDEN = registerSoundEvent("sweden");
+    public static final ResourceKey<JukeboxSong> SWEDEN_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "sweden"));
 
     //W
 

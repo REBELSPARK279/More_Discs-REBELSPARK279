@@ -14,9 +14,11 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rebelspark.morediscs.block.ModBlocks;
 import net.rebelspark.morediscs.item.ModCreativeModeTabs;
 import net.rebelspark.morediscs.item.ModItems;
 import net.rebelspark.morediscs.sound.ModSounds;
+import net.rebelspark.morediscs.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -39,6 +41,9 @@ public class MoreDiscs {
 
         ModSounds.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

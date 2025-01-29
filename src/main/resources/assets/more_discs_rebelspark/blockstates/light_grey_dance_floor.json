@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_discs_rebelspark:block/light_grey_dance_floor"
+    },
+    "facing=south": {
+      "model": "more_discs_rebelspark:block/light_grey_dance_floor",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "more_discs_rebelspark:block/light_grey_dance_floor",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "more_discs_rebelspark:block/light_grey_dance_floor",
+      "y": 270
+    }
+  }
+}

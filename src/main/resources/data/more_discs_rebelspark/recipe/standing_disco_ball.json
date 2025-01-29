@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "more_discs_rebelspark:disco_ball"
+    },
+    "i": {
+      "item": "minecraft:iron_bars"
+    },
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "pattern": [
+    " # ",
+    " i ",
+    " _ "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:standing_disco_ball"
+  }
+}

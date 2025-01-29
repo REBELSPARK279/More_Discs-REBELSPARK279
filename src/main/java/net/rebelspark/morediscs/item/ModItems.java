@@ -1,6 +1,9 @@
 package net.rebelspark.morediscs.item;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -8,11 +11,100 @@ import net.minecraftforge.registries.RegistryObject;
 import net.rebelspark.morediscs.MoreDiscs;
 import net.rebelspark.morediscs.sound.ModSounds;
 
+import java.util.List;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MoreDiscs.MOD_ID);
 
 
+
+    //PARTY EQUIPMENT
+
+
+
+
+    //DISC CORES
+
+    //D
+
+    public static final RegistryObject<Item> DANNY_DISC_CORE = ITEMS.register("danny_disc_core",
+            () -> new Item(new Item.Properties().stacksTo(1)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.disc_core_normal"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+
+
+    public static final RegistryObject<Item> DOG_DISC_CORE = ITEMS.register("dog_disc_core",
+            () -> new Item(new Item.Properties().stacksTo(1)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.disc_core_normal"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+    public static final RegistryObject<Item> DREITON_DISC_CORE = ITEMS.register("dreiton_disc_core",
+            () -> new Item(new Item.Properties().stacksTo(1)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.disc_core_normal"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+    //E
+
+    public static final RegistryObject<Item> EMPTY_DISC_CORE = ITEMS.register("empty_disc_core",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+
+
+    public static final RegistryObject<Item> COMMON = ITEMS.register("common",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.common_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+    public static final RegistryObject<Item> UNCOMMON = ITEMS.register("uncommon",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.uncommon_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+    public static final RegistryObject<Item> RARE = ITEMS.register("rare",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.rare_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+    public static final RegistryObject<Item> EPIC = ITEMS.register("epic",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.epic_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+    public static final RegistryObject<Item> LEGENDARY = ITEMS.register("legendary",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.legendary_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+//DISCS BELOW
 
 //A
 
@@ -20,7 +112,13 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ALPHA_KEY).stacksTo(1)));
 
     public static final RegistryObject<Item> ARIA_MATH_DISC = ITEMS.register("aria_math_music_disc",
-        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ARIA_MATH_KEY).stacksTo(1)));
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ARIA_MATH_KEY).stacksTo(1)) {
+            @Override
+            public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.uncommon_disc"));
+                super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+            }
+        });
 //B
     public static final RegistryObject<Item> BACK_ON_DASH_DISC = ITEMS.register("back_on_dash_music_disc",
         () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BACK_ON_DASH_KEY).stacksTo(1)));
@@ -40,6 +138,24 @@ public class ModItems {
 
     public static final RegistryObject<Item> CASTLEMANIA2DISC = ITEMS.register("castlemania2_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASTLEMANIA2_KEY).stacksTo(1)));
+
+//D
+
+    public static final RegistryObject<Item> DANNYDISC = ITEMS.register("danny_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DANNY_KEY).stacksTo(1)));
+
+    public static final RegistryObject<Item> DOGDISC = ITEMS.register("dog_music_disc",
+        () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DOG_KEY).stacksTo(1)) {
+            @Override
+            public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.legendary_disc"));
+                super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+            }
+        });
+
+    public static final RegistryObject<Item> DREITONDISC = ITEMS.register("dreiton_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DREITON_KEY).stacksTo(1)));
+
 //E
     public static final RegistryObject<Item> EXECUTIONER_DISC = ITEMS.register("executioner_music_disc",
         () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.EXECUTIONER_KEY).stacksTo(1)));
@@ -55,6 +171,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> HARDCOREMINECRAFTDISC = ITEMS.register("hardcoreminecraft_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.HARDCOREMINECRAFT_KEY).stacksTo(1)));
+
+    public static final RegistryObject<Item> HAUNT_MUSKIE_DISC = ITEMS.register("haunt_muskie_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.HAUNT_MUSKIE_KEY).stacksTo(1)));
 
     public static final RegistryObject<Item> HEADBUGDISC = ITEMS.register("headbug_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.HEADBUG_KEY).stacksTo(1)));
@@ -93,6 +212,9 @@ public class ModItems {
 //S
     public static final RegistryObject<Item> SUBWOOFER_LULLABY_DISC = ITEMS.register("subwoofer_lullaby_music_disc",
         () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SUBWOOFER_LULLABY_KEY).stacksTo(1)));
+
+    public static final RegistryObject<Item> SWEDEN_DISC = ITEMS.register("sweden_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SWEDEN_KEY).stacksTo(1)));
 
 //W
     public static final RegistryObject<Item> WET_HANDS_DISC = ITEMS.register("wet_hands_music_disc",

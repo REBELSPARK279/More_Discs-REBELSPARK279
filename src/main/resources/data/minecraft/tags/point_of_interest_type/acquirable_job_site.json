@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "more_discs_rebelspark:disc_jockey_poi",
+      "required": false
+    }
+  ]
+}

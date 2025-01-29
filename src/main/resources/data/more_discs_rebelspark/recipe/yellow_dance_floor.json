@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "_": {
+      "item": "minecraft:yellow_carpet"
+    },
+    "#": {
+      "item": "minecraft:copper_bulb"
+    },
+    "r": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    " _ ",
+    " # ",
+    " r "
+  ],
+  "result": {
+    "count": 2,
+    "id": "more_discs_rebelspark:yellow_dance_floor"
+  }
+}

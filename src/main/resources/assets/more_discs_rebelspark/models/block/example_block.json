@@ -1,0 +1,6 @@
+{
+  "parents": "minecraft:block/cube_all",
+  "textures": {
+    "all": "more_discs_rebelspark:block/example_block"
+  }
+}

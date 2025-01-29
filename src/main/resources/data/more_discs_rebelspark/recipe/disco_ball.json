@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "s": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "minecraft:redstone_block"
+    },
+    "r": {
+      "item": "minecraft:red_dye"
+    },
+    "y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "g": {
+      "item": "minecraft:green_dye"
+    },
+    "p": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    "gsr",
+    "sls",
+    "ybp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:disco_ball"
+  }
+}
