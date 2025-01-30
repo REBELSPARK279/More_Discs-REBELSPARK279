@@ -1,0 +1,43 @@
+Common:
+    Dreiton
+    Floating Trees
+    Haunt Muskie
+    Headbug
+    Ki
+    Sweden
+
+Uncommon:
+    Alpha
+    Aria Math
+    Blind Spots
+    Living Mice
+    Moog City
+    Mutation
+
+Rare:
+    Beginning 2
+    Subwoofer Lullaby
+    Wet Hands
+
+Epic:
+    Biome Fest
+    Haggstrom
+    Mice on Venus
+
+Legendary:
+    Danny
+    Dog
+    Minecraft
+    Moog City 2
+
+Generic Wandering Trader Exclusive:
+    Castlemania
+    Invincible
+
+Rare Wandering Trader Exclusive:
+    Castlemania II
+    Hardcore Minecraft
+
+Disc Jockey Exclusive:
+    Back on Dash
+    Executioner

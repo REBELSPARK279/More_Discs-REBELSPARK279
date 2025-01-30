@@ -37,7 +37,7 @@ public class ModEvents {
     Rare
     3 30
     4 26
-    5 24
+    5 21
     Villager Exclusive
     4 48
     5 40
@@ -64,12 +64,261 @@ public class ModEvents {
 
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemCost(Items.EMERALD, 4),
-                    new ItemStack(Items.FLINT, 8), 10, 4, 0.07f));
+                    new ItemStack(Items.FLINT, 8), 10, 1, 0.02f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 4),
+                    new ItemStack(Items.FLINT, 8), 10, 1, 0.02f));
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 4),
+                    new ItemStack(Items.FLINT, 8), 10, 1, 0.02f));
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 4),
+                    new ItemStack(Items.FLINT, 8), 10, 1, 0.02f));
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 4),
+                    new ItemStack(Items.FLINT, 8), 10, 1, 0.02f));
+
+
+            //COMMON
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 20),
+                    new ItemStack(ModItems.DREITONDISC.get(), 1), 10, 4, 0.07f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.DREITONDISC.get(), 1), 10, 8, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.DREITONDISC.get(), 1), 10, 12, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemCost(Items.EMERALD, 12),
-                    new ItemStack(ModItems.ARIA_MATH_DISC.get(), 1), 10, 4, 0.07f));
+                    new ItemStack(ModItems.DREITONDISC.get(), 1), 10, 16, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 8),
+                    new ItemStack(ModItems.DREITONDISC.get(), 1), 10, 20, 0.07f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 20),
+                    new ItemStack(ModItems.FLOATING_TREES_DISC.get(), 1), 10, 4, 0.07f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.FLOATING_TREES_DISC.get(), 1), 10, 8, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.FLOATING_TREES_DISC.get(), 1), 10, 12, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 12),
+                    new ItemStack(ModItems.FLOATING_TREES_DISC.get(), 1), 10, 16, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 8),
+                    new ItemStack(ModItems.FLOATING_TREES_DISC.get(), 1), 10, 20, 0.07f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 20),
+                    new ItemStack(ModItems.HAUNT_MUSKIE_DISC.get(), 1), 10, 4, 0.07f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.HAUNT_MUSKIE_DISC.get(), 1), 10, 8, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.HAUNT_MUSKIE_DISC.get(), 1), 10, 12, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 12),
+                    new ItemStack(ModItems.HAUNT_MUSKIE_DISC.get(), 1), 10, 16, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 8),
+                    new ItemStack(ModItems.HAUNT_MUSKIE_DISC.get(), 1), 10, 20, 0.07f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 20),
+                    new ItemStack(ModItems.HEADBUGDISC.get(), 1), 10, 4, 0.07f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.HEADBUGDISC.get(), 1), 10, 8, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.HEADBUGDISC.get(), 1), 10, 12, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 12),
+                    new ItemStack(ModItems.HEADBUGDISC.get(), 1), 10, 16, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 8),
+                    new ItemStack(ModItems.HEADBUGDISC.get(), 1), 10, 20, 0.07f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 20),
+                    new ItemStack(ModItems.KIDISC.get(), 1), 10, 4, 0.07f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.KIDISC.get(), 1), 10, 8, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.KIDISC.get(), 1), 10, 12, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 12),
+                    new ItemStack(ModItems.KIDISC.get(), 1), 10, 16, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 8),
+                    new ItemStack(ModItems.KIDISC.get(), 1), 10, 20, 0.07f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 20),
+                    new ItemStack(ModItems.SWEDEN_DISC.get(), 1), 10, 4, 0.07f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.SWEDEN_DISC.get(), 1), 10, 8, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SWEDEN_DISC.get(), 1), 10, 12, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 12),
+                    new ItemStack(ModItems.SWEDEN_DISC.get(), 1), 10, 16, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 8),
+                    new ItemStack(ModItems.SWEDEN_DISC.get(), 1), 10, 20, 0.07f));
+
+            //UNCOMMON
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 25),
+                    new ItemStack(ModItems.ALPHA_DISC.get(), 1), 10, 10, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 22),
+                    new ItemStack(ModItems.ALPHA_DISC.get(), 1), 10, 15, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.ALPHA_DISC.get(), 1), 10, 20, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.ALPHA_DISC.get(), 1), 10, 25, 0.07f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 25),
+                    new ItemStack(ModItems.ARIA_MATH_DISC.get(), 1), 10, 10, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 22),
+                    new ItemStack(ModItems.ARIA_MATH_DISC.get(), 1), 10, 15, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.ARIA_MATH_DISC.get(), 1), 10, 20, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.ARIA_MATH_DISC.get(), 1), 10, 25, 0.07f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 25),
+                    new ItemStack(ModItems.BLIND_SPOTS_DISC.get(), 1), 10, 10, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 22),
+                    new ItemStack(ModItems.BLIND_SPOTS_DISC.get(), 1), 10, 15, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.BLIND_SPOTS_DISC.get(), 1), 10, 20, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.BLIND_SPOTS_DISC.get(), 1), 10, 25, 0.07f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 25),
+                    new ItemStack(ModItems.LIVING_MICE_DISC.get(), 1), 10, 10, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 22),
+                    new ItemStack(ModItems.LIVING_MICE_DISC.get(), 1), 10, 15, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.LIVING_MICE_DISC.get(), 1), 10, 20, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.LIVING_MICE_DISC.get(), 1), 10, 25, 0.07f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 25),
+                    new ItemStack(ModItems.MOOG_CITY_DISC.get(), 1), 10, 10, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 22),
+                    new ItemStack(ModItems.MOOG_CITY_DISC.get(), 1), 10, 15, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.MOOG_CITY_DISC.get(), 1), 10, 20, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.MOOG_CITY_DISC.get(), 1), 10, 25, 0.07f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 25),
+                    new ItemStack(ModItems.MUTATIONDISC.get(), 1), 10, 10, 0.07f));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 22),
+                    new ItemStack(ModItems.MUTATIONDISC.get(), 1), 10, 15, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 18),
+                    new ItemStack(ModItems.MUTATIONDISC.get(), 1), 10, 20, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 16),
+                    new ItemStack(ModItems.MUTATIONDISC.get(), 1), 10, 25, 0.07f));
+
+            //RARE
+
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 30),
+                    new ItemStack(ModItems.BEGINNING2_DISC.get(), 1), 10, 18, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 26),
+                    new ItemStack(ModItems.BEGINNING2_DISC.get(), 1), 10, 24, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 21),
+                    new ItemStack(ModItems.BEGINNING2_DISC.get(), 1), 10, 30, 0.07f));
+
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 30),
+                    new ItemStack(ModItems.SUBWOOFER_LULLABY_DISC.get(), 1), 10, 18, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 26),
+                    new ItemStack(ModItems.SUBWOOFER_LULLABY_DISC.get(), 1), 20, 24, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 21),
+                    new ItemStack(ModItems.SUBWOOFER_LULLABY_DISC.get(), 1), 30, 30, 0.07f));
 
 
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 30),
+                    new ItemStack(ModItems.WET_HANDS_DISC.get(), 1), 10, 18, 0.07f));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 26),
+                    new ItemStack(ModItems.WET_HANDS_DISC.get(), 1), 10, 24, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 21),
+                    new ItemStack(ModItems.WET_HANDS_DISC.get(), 1), 10, 30, 0.07f));
+
+            //DISC JOCKEY EXCLUSIVE
+
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 48),
+                    new ItemStack(ModItems.BACK_ON_DASH_DISC.get(), 1), 10, 28, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 40),
+                    new ItemStack(ModItems.BACK_ON_DASH_DISC.get(), 1), 10, 35, 0.07f));
+
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 48),
+                    new ItemStack(ModItems.EXECUTIONER_DISC.get(), 1), 10, 28, 0.07f));
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 40),
+                    new ItemStack(ModItems.EXECUTIONER_DISC.get(), 1), 10, 35, 0.07f));
+
+            //EPIC
+
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 52),
+                    new ItemStack(ModItems.BIOME_FEST_DISC.get(), 1), 10, 40, 0.07f));
+
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 52),
+                    new ItemStack(ModItems.HAGGSTROMDISC.get(), 1), 10, 40, 0.07f));
+
+            trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 52),
+                    new ItemStack(ModItems.MICE_ON_VENUS_DISC.get(), 1), 10, 40, 0.07f));
 
 
         }
@@ -77,12 +326,69 @@ public class ModEvents {
 
     @SubscribeEvent
     public static void addWanderingTrades(WandererTradesEvent event) {
-        List<VillagerTrades.ItemListing> genericTradesMAMAMAMA = event.getGenericTrades();
+        List<VillagerTrades.ItemListing> genericTrades = event.getGenericTrades();
         List<VillagerTrades.ItemListing> rareTrades = event.getRareTrades();
 
-        genericTradesMAMAMAMA.add((pTrader, pRandom) -> new MerchantOffer(
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD, 3),
                 new ItemStack(Items.FLINT, 8), 8, 4, 0.15f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 10),
+                new ItemStack(ModItems.DREITONDISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 10),
+                new ItemStack(ModItems.FLOATING_TREES_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 10),
+                new ItemStack(ModItems.HAUNT_MUSKIE_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 10),
+                new ItemStack(ModItems.HEADBUGDISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 10),
+                new ItemStack(ModItems.KIDISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 10),
+                new ItemStack(ModItems.SWEDEN_DISC.get(), 1), 3, 4, 0.25f));
+
+        //UNCOMMON
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.ALPHA_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.ARIA_MATH_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.BLIND_SPOTS_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.LIVING_MICE_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.MOOG_CITY_DISC.get(), 1), 3, 4, 0.25f));
+
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.MUTATIONDISC.get(), 1), 3, 4, 0.25f));
+
+        //RARE
+
+        rareTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 14),
+                new ItemStack(ModItems.ALPHA_DISC.get(), 1), 3, 4, 0.25f));
+
     }
 
 

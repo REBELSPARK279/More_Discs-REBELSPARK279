@@ -129,8 +129,8 @@
   "tooltip.more_discs_rebelspark.epic_disc": "§5§lEpic Disc",
   "tooltip.more_discs_rebelspark.legendary_disc": "§6§l§kE§r§6§lLEGENDARY DISC§kE",
 
-  "tooltip.more_discs_rebelspark.gen_wandy-t": "§3Generic Wandering Trader Exclusive Disc",
-  "tooltip.more_discs_rebelspark.rare_wandy-t": "§b§lRare Wandering Trader Exclusive Disc",
+  "tooltip.more_discs_rebelspark.gen_wandy-t_disc": "§3Generic Wandering Trader Exclusive Disc",
+  "tooltip.more_discs_rebelspark.rare_wandy-t_disc": "§b§lRare Wandering Trader Exclusive Disc",
 
-  "tooltop.more_discs_rebelspark.vill_disc": "§cVillager Exclusive Disc"
+  "tooltip.more_discs_rebelspark.vill_disc": "§cVillager Exclusive Disc"
 }
