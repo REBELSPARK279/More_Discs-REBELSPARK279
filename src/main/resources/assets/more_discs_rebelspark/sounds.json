@@ -80,6 +80,15 @@
     ]
   },
 
+  "death": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:death",
+        "stream": true
+      }
+    ]
+  },
+
   "dog": {
     "sounds": [
       {
@@ -93,6 +102,15 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:dreiton",
+        "stream": true
+      }
+    ]
+  },
+
+  "dry_hands": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:dry_hands",
         "stream": true
       }
     ]

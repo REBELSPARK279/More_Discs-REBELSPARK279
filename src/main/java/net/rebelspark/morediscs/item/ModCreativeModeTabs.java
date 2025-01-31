@@ -29,8 +29,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CASTLEMANIADISC.get());
                         output.accept(ModItems.CASTLEMANIA2DISC.get());
                         output.accept(ModItems.DANNYDISC.get());
+                        output.accept(ModItems.DEATHDISC.get());
                         output.accept(ModItems.DOGDISC.get());
                         output.accept(ModItems.DREITONDISC.get());
+                        output.accept(ModItems.DRYHANDSDISC.get());
                         output.accept(ModItems.EXECUTIONER_DISC.get());
                         output.accept(ModItems.FLOATING_TREES_DISC.get());
                         output.accept(ModItems.HAGGSTROMDISC.get());

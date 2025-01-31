@@ -192,6 +192,15 @@ public class ModItems {
                 }
             });
 
+    public static final RegistryObject<Item> DEATHDISC = ITEMS.register("death_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DEATH_KEY).stacksTo(1)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.vill_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
     public static final RegistryObject<Item> DOGDISC = ITEMS.register("dog_music_disc",
         () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DOG_KEY).stacksTo(1)) {
             @Override
@@ -203,6 +212,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> DREITONDISC = ITEMS.register("dreiton_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DREITON_KEY).stacksTo(1)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.common_disc"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+    public static final RegistryObject<Item> DRYHANDSDISC = ITEMS.register("dry_hands_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DRYHANDS_KEY).stacksTo(1)) {
                 @Override
                 public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     pTooltipComponents.add(Component.translatable("tooltip.more_discs_rebelspark.common_disc"));

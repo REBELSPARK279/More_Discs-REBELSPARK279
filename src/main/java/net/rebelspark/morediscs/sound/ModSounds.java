@@ -56,6 +56,10 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> DANNY_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "danny"));
 
+    public static final RegistryObject<SoundEvent> DEATH = registerSoundEvent("death");
+    public static final ResourceKey<JukeboxSong> DEATH_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "death"));
+
     public static final RegistryObject<SoundEvent> DOG = registerSoundEvent("dog");
     public static final ResourceKey<JukeboxSong> DOG_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "dog"));
@@ -63,6 +67,10 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> DREITON = registerSoundEvent("dreiton");
     public static final ResourceKey<JukeboxSong> DREITON_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "dreiton"));
+
+    public static final RegistryObject<SoundEvent> DRYHANDS = registerSoundEvent("dry_hands");
+    public static final ResourceKey<JukeboxSong> DRYHANDS_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(MoreDiscs.MOD_ID, "dry_hands"));
 
     //E
 
